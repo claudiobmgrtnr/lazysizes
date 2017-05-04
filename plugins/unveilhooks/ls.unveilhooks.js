@@ -25,9 +25,9 @@ For background images, use data-bg attribute:
 (function(window, factory) {
 	factory = factory.bind(null, window, window.document);
 	if(typeof module == 'object' && module.exports){
-		factory(require('lazysizes'));
+		factory(require('lazysizes-umd'));
 	} else if (typeof define == 'function' && define.amd) {
-		require(['lazysizes'], factory);
+		require(['lazysizes-umd'], factory);
 	} else {
 		factory(window.lazySizes);
 	}
