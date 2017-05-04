@@ -1,5 +1,5 @@
 {
-  "name": "lazysizes",
+  "name": "lazysizes-umd",
   "version": "3.0.0",
   "filename": "lazysizes.min.js",
   "author": "Alexander Farkas <info@corrupt-system.de>",
@@ -27,7 +27,7 @@
     "qunitjs": "^1.17.0",
     "respimage": "^1.4.2"
   },
-  "npmName": "lazysizes",
+  "npmName": "lazysizes-umd",
   "npmFileMap": [
     {
       "basePath": "",
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "description": "High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).",
+  "description": "Temporary fork of lazysizes which adds UMD wrapper for all plugins for better integration with webpack or browserify.",
   "keywords": [
     "lazy",
     "loader",

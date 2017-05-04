@@ -1,4 +1,9 @@
-# lazysizes
+# lazysizes-umd
+
+This is just a temporary fork of lazysizes 3.x with UMD wrapper for all plugins for better bundler results.
+The underlying code was already merged into lazysizes but not released to NPM yet
+
+For details please see the [original lazysizes package](http://afarkas.github.io/lazysizes/)
 
 **lazysizes** is a fast (jank-free), SEO-friendly and self-initializing lazyloader for images (including responsive images ``picture``/``srcset``), iframes, scripts/widgets and much more. It also prioritizes resources by differentiating between crucial in view and near view elements to make perceived performance even faster.
 
